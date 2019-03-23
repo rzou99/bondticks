@@ -19,8 +19,8 @@ public class Ticks {
         int cusipCount = 0;
         String originalLine;
         String line;
-        String cusip = EMPTY;
-        String price = EMPTY;
+        String cusip = EMPTY; // store the current CUSIP
+        String price = EMPTY; // store the latest price scanned so far
 
         try (BufferedReader fileBufferReader = new BufferedReader(new FileReader(fileName))) {
 
