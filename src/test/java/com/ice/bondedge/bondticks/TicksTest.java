@@ -11,7 +11,7 @@ import static org.junit.Assert.assertEquals;
 @SpringBootTest
 public class TicksTest {
 
-    public static final String ROOT_PATH = "/Users/rz08/dev/ticks/src/test/resources/";
+    public static final String ROOT_PATH = "/Users/rz08/dev/bondticks/src/test/resources/";
 
     @Test
     public void testFiles() {
